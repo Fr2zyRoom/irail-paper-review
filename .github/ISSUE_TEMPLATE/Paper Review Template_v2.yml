@@ -1,5 +1,7 @@
 name: :blue_book: Paper Review Template:v2
 description: 논문 정리를 위한 template version.2.0.
+title: "[Bug]: "
+labels: ["bug", "triage"]
 body:
   - type: textarea
     id: motivation
