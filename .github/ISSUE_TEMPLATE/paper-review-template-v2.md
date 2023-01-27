@@ -1,0 +1,50 @@
+---
+name: Paper Review Template:v2
+about: 논문 정리를 위한 template version.2.0.
+title: ''
+labels: ''
+assignees: ''
+
+---
+
+name: :blue_book: Paper Review Template
+description: for paper review
+title: " "
+body:
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      placeholder: 개요 및 연구 목적
+    validations:
+      required: true
+  - type: textarea
+    id: method
+    attributes:
+      label: Method
+      placeholder: 논문에서 제안하는 방법론
+    validations:
+      required: true
+  - type: textarea
+    id: experiment
+    attributes:
+      label: Experiment
+      placeholder: 연구 결과 요약
+    validations:
+      required: true
+  - type: textarea
+    id: insight
+    attributes:
+      label: Insight
+      placeholder: 논문의 novelty, 논문을 읽고 드는 자신의 생각(궁금증, 연구의 방향성, 적용 아이디어)
+    validations:
+      required: true
+  - type: dropdown
+    id: journal_conference
+    attributes:
+      label: Journal or Conference
+      options:
+        - Journal
+        - Conference
+    validations:
+      required: true
