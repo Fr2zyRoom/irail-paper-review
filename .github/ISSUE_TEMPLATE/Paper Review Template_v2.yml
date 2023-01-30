@@ -16,9 +16,9 @@ body:
     validations:
       required: true
   - type: textarea
-    id: experiment
+    id: experiment_and_result
     attributes:
-      label: Experiment
+      label: Experiment & Result
       placeholder: 연구 결과 요약
     validations:
       required: true
@@ -29,12 +29,10 @@ body:
       placeholder: 논문의 novelty, 논문을 읽고 드는 자신의 생각(궁금증, 연구의 방향성, 적용 아이디어)
     validations:
       required: true
-  - type: dropdown
-    id: journal_conference
+  - type: input
+    id: url
     attributes:
-      label: Journal or Conference
-      options:
-        - Journal
-        - Conference
+      label: Paper URL
+      placeholder: 논문 링크
     validations:
       required: true
